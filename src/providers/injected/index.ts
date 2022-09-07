@@ -62,6 +62,8 @@ import TokenPocketLogo from "../logos/tokenpocket.svg";
 import CoreLogo from "../logos/core.svg";
 // @ts-ignore
 import GameStopLogo from "../logos/gamestopwallet.svg";
+// @ts-ignore
+import DefiantLogo from "../logos/defiant.svg";
 
 export const FALLBACK: IProviderInfo = {
   id: "injected",
@@ -309,4 +311,12 @@ export const GAMESTOP: IProviderInfo = {
   logo: GameStopLogo,
   type: "injected",
   check: "isGamestop"
+};
+
+export const DEFIANT: IProviderInfo = {
+  id: "injected",
+  name: "Defiant",
+  logo: DefiantLogo,
+  type: "injected",
+  check: "isDefiant"
 };
