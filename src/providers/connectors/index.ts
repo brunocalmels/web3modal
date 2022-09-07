@@ -19,6 +19,7 @@ import opera from "./opera";
 import web3auth from "./web3auth";
 import bitkeep from "./bitkeep";
 import starzwallet from "./starzwallet";
+import defiant from "./defiant";
 
 export {
   injected,
